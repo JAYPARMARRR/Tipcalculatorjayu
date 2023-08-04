@@ -1,0 +1,144 @@
+/* Tip calculator app.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  .main-box {
+    width: 63vh;
+    height: 69vh;
+    margin: 93px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 4px solid #444444;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  .bill-input,
+  .people-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .tip {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+.tip div {
+    text-align: center;
+    height: 22px;
+    background-color: #ff7f7f;
+    border: 1px solid #444444;
+    cursor: pointer;
+}
+  
+  .tip div:hover {
+    background-color: #e0e0e0;
+  }
+  
+
+  
+  #custom input {
+    width: 100%;
+    margin: -7px -18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  .bottam-last-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .right-box {
+    /* display: flex; */
+    justify-content: space-between;
+  }
+  
+  .tip-amount,
+  .total {
+    text-align: center;
+  }
+  
+  .tip-amount p,
+  .total p {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .amount,
+  .total-amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  .reset-btn {
+background-color: #555555;
+    color: #ffffff;
+    padding: 12px 18px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  
+  .reset-btn:hover {
+    background-color: #444444;
+  }
+
+
+
+  #reset-btn {
+    display: inline-block;
+    padding: 7px 156px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #eb6666;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 11px;
+    position: absolute;
+    top: 68%;
+    right: 38%;
+}
+    #reset-btn:hover {
+      background-color: #d15050;
+    }
+    
+  
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .main-box {
+      width: 90%;
+    }
+  }
+  
+
+  .jayuname {
+    display: block;
+    margin: auto;
+    color: #444444;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 42%;
+}

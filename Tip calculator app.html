@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator app</title>
+    <link rel="stylesheet" href="/Tip calculator app.css" />
+    <link rel="icon" href="/Calculator app icon-PhotoRoom.png-PhotoRoom.png" type="image/x-icon" />
+
+</head>
+
+<body>
+    <h2 class="jayuname">Jayu Tip Calculator </h2>
+    <div class="main-box">
+        <input type="number" class="bill-input" placeholder="Enter a Bill Amount " id="bill-input" />
+        <label for=""> Select Tip %</label>
+        <div class="tip">
+            <div class="tip-5" onclick="addTipAmount(5)">5%</div>
+            <div class="tip-10" onclick="addTipAmount(10)">10%</div>
+            <div class="tip-15" onclick="addTipAmount(15)">15%</div>
+            <div class="tip-25" onclick="addTipAmount(25)">25%</div>
+            <div class="tip-50" onclick="addTipAmount(50)">50%</div>
+            <div id="custom"><input type="number" placeholder="custom" id="customTipInput" /></div>
+        </div>
+
+        <div class="bottam-last-box">
+            <label for="" class=""> number of people </label>
+            <!-- <label for="">not enter o</label> -->
+        </div>
+
+        <div>
+            <input type="number" class="people-input" id="people-input" />
+        </div>
+
+        <div class="right-box">
+            <div class="tip-amount">
+                <p id="tipamount-input">tip amount</p>
+                <p class="Person">/Person</p>
+                <input class="amount" id="tipPerPerson"></input>
+            </div>
+
+            <div class="total">
+                <p class="totalamount-input">total</p>
+                <p class="Person">/Person</p>
+                <input class="total-amount" id="perPerAmount"></input>
+            </div>
+
+            <button id="reset-btn" onclick="reset()">reset</button>
+        </div>
+    </div>
+
+    <script src="/Tip calculator app.js"></script>
+</body>
+
+</html>
